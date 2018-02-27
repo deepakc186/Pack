@@ -1,0 +1,69 @@
+
+body{
+    overflow-x: hidden;
+    background-color: #cccccc;
+}
+#top1{
+    position: relative;
+    top: 45px;
+    left: 300px;
+}
+#image-container{position: relative;
+    border-radius: 25px;
+    left: 290px;
+    background: #ffffff;
+    padding: 20px; 
+    width: 800px;
+    height: 300px;
+    border: 2px solid #ff6600;
+    top: -35px;
+}
+.images{
+    position: relative;
+    alignment-adjust: central;
+    align-content: center;
+    top: 40px;
+    vertical-align: bottom;
+   
+}
+
+.button {
+    background-color: #999999;
+    left: 100px;
+    border-radius: 10px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+#btnn1{
+    position: relative;
+    right: -320px;
+    top: -40px;
+}
+#btnn2{
+    position: absolute;
+    right: 690px;
+    top: 500px;
+}
+#btnn3{
+    position: absolute;
+    right: 440px;
+    top: 500px;
+}
+
+#top{
+    font-family: verdana;
+    position: relative;
+    top: -20px;
+}
+.active .btn:hover{
+     background-color: #ff6600;
+}
